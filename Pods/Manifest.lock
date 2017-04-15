@@ -1,0 +1,15 @@
+PODS:
+  - HGCircularSlider (1.1.0)
+  - SideMenuController (0.2.4)
+
+DEPENDENCIES:
+  - HGCircularSlider (~> 1.1)
+  - SideMenuController
+
+SPEC CHECKSUMS:
+  HGCircularSlider: 74d3dcb4a59634b26e16232b6c51e392b8e564ee
+  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
+
+PODFILE CHECKSUM: ff9c066180ef62c21bb044a32cc56630a8b8df27
+
+COCOAPODS: 1.2.1

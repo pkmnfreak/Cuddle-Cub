@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FF2A5518961518FBA8D5A1 /* Pods_Cuddle_CubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBBF7BCC9812FB328A07DAC /* Pods_Cuddle_CubUITests.framework */; };
+		48077D3F10FACFA6CF2D2729 /* Pods_Cuddle_Cub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD791315583DEF7BBC51BA9 /* Pods_Cuddle_Cub.framework */; };
+		81252F7A1EA0AB6600F48FB9 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F791EA0AB6600F48FB9 /* MenuController.swift */; };
+		81252F7C1EA0BB5800F48FB9 /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F7B1EA0BB5800F48FB9 /* menuCell.swift */; };
+		81252F7F1EA0C6E100F48FB9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F7E1EA0C6E100F48FB9 /* profileViewController.swift */; };
+		81252F811EA0CABC00F48FB9 /* notificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F801EA0CABC00F48FB9 /* notificationViewController.swift */; };
+		81252F831EA0D91D00F48FB9 /* scheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F821EA0D91D00F48FB9 /* scheduleViewController.swift */; };
+		81252F851EA0D9BA00F48FB9 /* soundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F841EA0D9BA00F48FB9 /* soundViewController.swift */; };
+		81252F871EA0D9FF00F48FB9 /* lightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F861EA0D9FF00F48FB9 /* lightViewController.swift */; };
+		81252F891EA0DAB300F48FB9 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F881EA0DAB300F48FB9 /* settingsViewController.swift */; };
+		81252F8B1EA0DB5300F48FB9 /* childViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F8A1EA0DB5300F48FB9 /* childViewController.swift */; };
+		81252F8E1EA0E7D900F48FB9 /* settingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F8D1EA0E7D900F48FB9 /* settingCell.swift */; };
+		81252F901EA1001400F48FB9 /* changePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F8F1EA1001400F48FB9 /* changePhotoViewController.swift */; };
+		81252F921EA1003100F48FB9 /* changeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F911EA1003100F48FB9 /* changeNameViewController.swift */; };
+		81252F941EA1004E00F48FB9 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F931EA1004E00F48FB9 /* changePasswordViewController.swift */; };
+		81252F961EA1006300F48FB9 /* helpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F951EA1006300F48FB9 /* helpViewController.swift */; };
+		81252F981EA1007300F48FB9 /* referViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F971EA1007300F48FB9 /* referViewController.swift */; };
+		81252F9D1EA2039700F48FB9 /* repeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F9C1EA2039700F48FB9 /* repeatViewController.swift */; };
+		81252FA01EA203B400F48FB9 /* repeatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252F9F1EA203B400F48FB9 /* repeatCell.swift */; };
+		81252FA31EA21DD400F48FB9 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252FA21EA21DD400F48FB9 /* forgotPasswordViewController.swift */; };
+		81252FA51EA21E0500F48FB9 /* passwordSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252FA41EA21E0500F48FB9 /* passwordSentViewController.swift */; };
+		81252FA71EA21E1E00F48FB9 /* cycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252FA61EA21E1E00F48FB9 /* cycleViewController.swift */; };
+		81252FA91EA21E3300F48FB9 /* editNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252FA81EA21E3300F48FB9 /* editNameViewController.swift */; };
+		81252FAB1EA223D000F48FB9 /* labelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81252FAA1EA223D000F48FB9 /* labelViewController.swift */; };
+		816880971E9EC28D002F9217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880961E9EC28D002F9217 /* AppDelegate.swift */; };
+		816880991E9EC28D002F9217 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880981E9EC28D002F9217 /* signInViewController.swift */; };
+		8168809C1E9EC28D002F9217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8168809A1E9EC28D002F9217 /* Main.storyboard */; };
+		8168809E1E9EC28D002F9217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8168809D1E9EC28D002F9217 /* Assets.xcassets */; };
+		816880A11E9EC28D002F9217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8168809F1E9EC28D002F9217 /* LaunchScreen.storyboard */; };
+		816880AC1E9EC28D002F9217 /* Cuddle_CubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880AB1E9EC28D002F9217 /* Cuddle_CubTests.swift */; };
+		816880B71E9EC28D002F9217 /* Cuddle_CubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880B61E9EC28D002F9217 /* Cuddle_CubUITests.swift */; };
+		816880C51E9ED3B0002F9217 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880C41E9ED3B0002F9217 /* signUpViewController.swift */; };
+		816880C71E9EF611002F9217 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880C61E9EF611002F9217 /* homeViewController.swift */; };
+		816880C91E9F6D17002F9217 /* circularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880C81E9F6D17002F9217 /* circularProgressBar.swift */; };
+		816880CB1EA0A673002F9217 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816880CA1EA0A673002F9217 /* CustomSideMenuController.swift */; };
+		C268409CD907D2FD964C9E93 /* Pods_Cuddle_CubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57556163523B4E2C9B0AD409 /* Pods_Cuddle_CubTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816880A81E9EC28D002F9217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8168808B1E9EC28D002F9217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816880921E9EC28D002F9217;
+			remoteInfo = "Cuddle Cub";
+		};
+		816880B31E9EC28D002F9217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8168808B1E9EC28D002F9217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816880921E9EC28D002F9217;
+			remoteInfo = "Cuddle Cub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10D0D7B8A129390961D5EBB1 /* Pods-Cuddle Cub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle Cub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle Cub/Pods-Cuddle Cub.debug.xcconfig"; sourceTree = "<group>"; };
+		2BBBF7BCC9812FB328A07DAC /* Pods_Cuddle_CubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuddle_CubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57556163523B4E2C9B0AD409 /* Pods_Cuddle_CubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuddle_CubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4C092A325FB7809B4F305 /* Pods-Cuddle CubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle CubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle CubUITests/Pods-Cuddle CubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81252F791EA0AB6600F48FB9 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		81252F7B1EA0BB5800F48FB9 /* menuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
+		81252F7E1EA0C6E100F48FB9 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		81252F801EA0CABC00F48FB9 /* notificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationViewController.swift; sourceTree = "<group>"; };
+		81252F821EA0D91D00F48FB9 /* scheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheduleViewController.swift; sourceTree = "<group>"; };
+		81252F841EA0D9BA00F48FB9 /* soundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundViewController.swift; sourceTree = "<group>"; };
+		81252F861EA0D9FF00F48FB9 /* lightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lightViewController.swift; sourceTree = "<group>"; };
+		81252F881EA0DAB300F48FB9 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		81252F8A1EA0DB5300F48FB9 /* childViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = childViewController.swift; sourceTree = "<group>"; };
+		81252F8D1EA0E7D900F48FB9 /* settingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingCell.swift; sourceTree = "<group>"; };
+		81252F8F1EA1001400F48FB9 /* changePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changePhotoViewController.swift; sourceTree = "<group>"; };
+		81252F911EA1003100F48FB9 /* changeNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeNameViewController.swift; sourceTree = "<group>"; };
+		81252F931EA1004E00F48FB9 /* changePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		81252F951EA1006300F48FB9 /* helpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpViewController.swift; sourceTree = "<group>"; };
+		81252F971EA1007300F48FB9 /* referViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = referViewController.swift; sourceTree = "<group>"; };
+		81252F9C1EA2039700F48FB9 /* repeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = repeatViewController.swift; sourceTree = "<group>"; };
+		81252F9F1EA203B400F48FB9 /* repeatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = repeatCell.swift; sourceTree = "<group>"; };
+		81252FA21EA21DD400F48FB9 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		81252FA41EA21E0500F48FB9 /* passwordSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordSentViewController.swift; sourceTree = "<group>"; };
+		81252FA61EA21E1E00F48FB9 /* cycleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cycleViewController.swift; sourceTree = "<group>"; };
+		81252FA81EA21E3300F48FB9 /* editNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editNameViewController.swift; sourceTree = "<group>"; };
+		81252FAA1EA223D000F48FB9 /* labelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labelViewController.swift; sourceTree = "<group>"; };
+		816880931E9EC28D002F9217 /* Cuddle Cub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cuddle Cub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816880961E9EC28D002F9217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816880981E9EC28D002F9217 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		8168809B1E9EC28D002F9217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8168809D1E9EC28D002F9217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816880A01E9EC28D002F9217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816880A21E9EC28D002F9217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816880A71E9EC28D002F9217 /* Cuddle CubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuddle CubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816880AB1E9EC28D002F9217 /* Cuddle_CubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuddle_CubTests.swift; sourceTree = "<group>"; };
+		816880AD1E9EC28D002F9217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816880B21E9EC28D002F9217 /* Cuddle CubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuddle CubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816880B61E9EC28D002F9217 /* Cuddle_CubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuddle_CubUITests.swift; sourceTree = "<group>"; };
+		816880B81E9EC28D002F9217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816880C41E9ED3B0002F9217 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		816880C61E9EF611002F9217 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		816880C81E9F6D17002F9217 /* circularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circularProgressBar.swift; sourceTree = "<group>"; };
+		816880CA1EA0A673002F9217 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		8CC81D32966B9D5685A9DB16 /* Pods-Cuddle CubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle CubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle CubTests/Pods-Cuddle CubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9063796D8BB10815398F4043 /* Pods-Cuddle CubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle CubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle CubTests/Pods-Cuddle CubTests.release.xcconfig"; sourceTree = "<group>"; };
+		9ADD936D7F88881EC53E3565 /* Pods-Cuddle CubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle CubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle CubUITests/Pods-Cuddle CubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFD791315583DEF7BBC51BA9 /* Pods_Cuddle_Cub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuddle_Cub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAB113BB6156110390955BF /* Pods-Cuddle Cub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuddle Cub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuddle Cub/Pods-Cuddle Cub.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816880901E9EC28D002F9217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48077D3F10FACFA6CF2D2729 /* Pods_Cuddle_Cub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880A41E9EC28D002F9217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C268409CD907D2FD964C9E93 /* Pods_Cuddle_CubTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880AF1E9EC28D002F9217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FF2A5518961518FBA8D5A1 /* Pods_Cuddle_CubUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4378CFC9B14A2279194634C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D0D7B8A129390961D5EBB1 /* Pods-Cuddle Cub.debug.xcconfig */,
+				FDAB113BB6156110390955BF /* Pods-Cuddle Cub.release.xcconfig */,
+				8CC81D32966B9D5685A9DB16 /* Pods-Cuddle CubTests.debug.xcconfig */,
+				9063796D8BB10815398F4043 /* Pods-Cuddle CubTests.release.xcconfig */,
+				6DA4C092A325FB7809B4F305 /* Pods-Cuddle CubUITests.debug.xcconfig */,
+				9ADD936D7F88881EC53E3565 /* Pods-Cuddle CubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81252F7D1EA0C3EC00F48FB9 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				816880CA1EA0A673002F9217 /* CustomSideMenuController.swift */,
+				81252F7B1EA0BB5800F48FB9 /* menuCell.swift */,
+				81252F791EA0AB6600F48FB9 /* MenuController.swift */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
+		81252F8C1EA0E7C700F48FB9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				81252F7E1EA0C6E100F48FB9 /* profileViewController.swift */,
+				81252F801EA0CABC00F48FB9 /* notificationViewController.swift */,
+				81252F881EA0DAB300F48FB9 /* settingsViewController.swift */,
+				81252F8D1EA0E7D900F48FB9 /* settingCell.swift */,
+				81252F8F1EA1001400F48FB9 /* changePhotoViewController.swift */,
+				81252F911EA1003100F48FB9 /* changeNameViewController.swift */,
+				81252F931EA1004E00F48FB9 /* changePasswordViewController.swift */,
+				81252F951EA1006300F48FB9 /* helpViewController.swift */,
+				81252F971EA1007300F48FB9 /* referViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		81252F9B1EA2031D00F48FB9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				816880C61E9EF611002F9217 /* homeViewController.swift */,
+				816880C81E9F6D17002F9217 /* circularProgressBar.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		81252F9E1EA2039E00F48FB9 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				81252F821EA0D91D00F48FB9 /* scheduleViewController.swift */,
+				81252F9C1EA2039700F48FB9 /* repeatViewController.swift */,
+				81252F9F1EA203B400F48FB9 /* repeatCell.swift */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		81252FA11EA214FE00F48FB9 /* Childprofile */ = {
+			isa = PBXGroup;
+			children = (
+				81252F8A1EA0DB5300F48FB9 /* childViewController.swift */,
+				81252FA81EA21E3300F48FB9 /* editNameViewController.swift */,
+			);
+			name = Childprofile;
+			sourceTree = "<group>";
+		};
+		8168808A1E9EC28D002F9217 = {
+			isa = PBXGroup;
+			children = (
+				816880951E9EC28D002F9217 /* Cuddle Cub */,
+				816880AA1E9EC28D002F9217 /* Cuddle CubTests */,
+				816880B51E9EC28D002F9217 /* Cuddle CubUITests */,
+				816880941E9EC28D002F9217 /* Products */,
+				4378CFC9B14A2279194634C2 /* Pods */,
+				C5275797EEF5B2FC3631488F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		816880941E9EC28D002F9217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816880931E9EC28D002F9217 /* Cuddle Cub.app */,
+				816880A71E9EC28D002F9217 /* Cuddle CubTests.xctest */,
+				816880B21E9EC28D002F9217 /* Cuddle CubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816880951E9EC28D002F9217 /* Cuddle Cub */ = {
+			isa = PBXGroup;
+			children = (
+				81252FA11EA214FE00F48FB9 /* Childprofile */,
+				81252F9E1EA2039E00F48FB9 /* Schedule */,
+				81252F9B1EA2031D00F48FB9 /* Home */,
+				81252F8C1EA0E7C700F48FB9 /* Settings */,
+				81252F7D1EA0C3EC00F48FB9 /* SideBar */,
+				816880961E9EC28D002F9217 /* AppDelegate.swift */,
+				816880981E9EC28D002F9217 /* signInViewController.swift */,
+				816880C41E9ED3B0002F9217 /* signUpViewController.swift */,
+				8168809A1E9EC28D002F9217 /* Main.storyboard */,
+				8168809D1E9EC28D002F9217 /* Assets.xcassets */,
+				8168809F1E9EC28D002F9217 /* LaunchScreen.storyboard */,
+				816880A21E9EC28D002F9217 /* Info.plist */,
+				81252F841EA0D9BA00F48FB9 /* soundViewController.swift */,
+				81252F861EA0D9FF00F48FB9 /* lightViewController.swift */,
+				81252FA21EA21DD400F48FB9 /* forgotPasswordViewController.swift */,
+				81252FA41EA21E0500F48FB9 /* passwordSentViewController.swift */,
+				81252FA61EA21E1E00F48FB9 /* cycleViewController.swift */,
+				81252FAA1EA223D000F48FB9 /* labelViewController.swift */,
+			);
+			path = "Cuddle Cub";
+			sourceTree = "<group>";
+		};
+		816880AA1E9EC28D002F9217 /* Cuddle CubTests */ = {
+			isa = PBXGroup;
+			children = (
+				816880AB1E9EC28D002F9217 /* Cuddle_CubTests.swift */,
+				816880AD1E9EC28D002F9217 /* Info.plist */,
+			);
+			path = "Cuddle CubTests";
+			sourceTree = "<group>";
+		};
+		816880B51E9EC28D002F9217 /* Cuddle CubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816880B61E9EC28D002F9217 /* Cuddle_CubUITests.swift */,
+				816880B81E9EC28D002F9217 /* Info.plist */,
+			);
+			path = "Cuddle CubUITests";
+			sourceTree = "<group>";
+		};
+		C5275797EEF5B2FC3631488F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD791315583DEF7BBC51BA9 /* Pods_Cuddle_Cub.framework */,
+				57556163523B4E2C9B0AD409 /* Pods_Cuddle_CubTests.framework */,
+				2BBBF7BCC9812FB328A07DAC /* Pods_Cuddle_CubUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816880921E9EC28D002F9217 /* Cuddle Cub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816880BB1E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle Cub" */;
+			buildPhases = (
+				70E6128A903FC2554807F13F /* [CP] Check Pods Manifest.lock */,
+				8168808F1E9EC28D002F9217 /* Sources */,
+				816880901E9EC28D002F9217 /* Frameworks */,
+				816880911E9EC28D002F9217 /* Resources */,
+				2F401A0C0F46345A0247B989 /* [CP] Embed Pods Frameworks */,
+				C15EA70394FFCDC63472EFA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cuddle Cub";
+			productName = "Cuddle Cub";
+			productReference = 816880931E9EC28D002F9217 /* Cuddle Cub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816880A61E9EC28D002F9217 /* Cuddle CubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816880BE1E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle CubTests" */;
+			buildPhases = (
+				4D883DEAE61AEC6D4D584BB2 /* [CP] Check Pods Manifest.lock */,
+				816880A31E9EC28D002F9217 /* Sources */,
+				816880A41E9EC28D002F9217 /* Frameworks */,
+				816880A51E9EC28D002F9217 /* Resources */,
+				96653CA7EDFDCB7B9E88B179 /* [CP] Embed Pods Frameworks */,
+				9D4D995EAD46220360985FB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816880A91E9EC28D002F9217 /* PBXTargetDependency */,
+			);
+			name = "Cuddle CubTests";
+			productName = "Cuddle CubTests";
+			productReference = 816880A71E9EC28D002F9217 /* Cuddle CubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816880B11E9EC28D002F9217 /* Cuddle CubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816880C11E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle CubUITests" */;
+			buildPhases = (
+				DAB339E2709666AD36667385 /* [CP] Check Pods Manifest.lock */,
+				816880AE1E9EC28D002F9217 /* Sources */,
+				816880AF1E9EC28D002F9217 /* Frameworks */,
+				816880B01E9EC28D002F9217 /* Resources */,
+				2550B9F50A60F53B47001FE1 /* [CP] Embed Pods Frameworks */,
+				C76E8473B3B769D7E9DFC0A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816880B41E9EC28D002F9217 /* PBXTargetDependency */,
+			);
+			name = "Cuddle CubUITests";
+			productName = "Cuddle CubUITests";
+			productReference = 816880B21E9EC28D002F9217 /* Cuddle CubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8168808B1E9EC28D002F9217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Evan Chang";
+				TargetAttributes = {
+					816880921E9EC28D002F9217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+					};
+					816880A61E9EC28D002F9217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816880921E9EC28D002F9217;
+					};
+					816880B11E9EC28D002F9217 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816880921E9EC28D002F9217;
+					};
+				};
+			};
+			buildConfigurationList = 8168808E1E9EC28D002F9217 /* Build configuration list for PBXProject "Cuddle Cub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8168808A1E9EC28D002F9217;
+			productRefGroup = 816880941E9EC28D002F9217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816880921E9EC28D002F9217 /* Cuddle Cub */,
+				816880A61E9EC28D002F9217 /* Cuddle CubTests */,
+				816880B11E9EC28D002F9217 /* Cuddle CubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816880911E9EC28D002F9217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816880A11E9EC28D002F9217 /* LaunchScreen.storyboard in Resources */,
+				8168809E1E9EC28D002F9217 /* Assets.xcassets in Resources */,
+				8168809C1E9EC28D002F9217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880A51E9EC28D002F9217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880B01E9EC28D002F9217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2550B9F50A60F53B47001FE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle CubUITests/Pods-Cuddle CubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F401A0C0F46345A0247B989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle Cub/Pods-Cuddle Cub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D883DEAE61AEC6D4D584BB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E6128A903FC2554807F13F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96653CA7EDFDCB7B9E88B179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle CubTests/Pods-Cuddle CubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4D995EAD46220360985FB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle CubTests/Pods-Cuddle CubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15EA70394FFCDC63472EFA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle Cub/Pods-Cuddle Cub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76E8473B3B769D7E9DFC0A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuddle CubUITests/Pods-Cuddle CubUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB339E2709666AD36667385 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8168808F1E9EC28D002F9217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81252F981EA1007300F48FB9 /* referViewController.swift in Sources */,
+				81252F851EA0D9BA00F48FB9 /* soundViewController.swift in Sources */,
+				816880CB1EA0A673002F9217 /* CustomSideMenuController.swift in Sources */,
+				81252FA71EA21E1E00F48FB9 /* cycleViewController.swift in Sources */,
+				81252F7A1EA0AB6600F48FB9 /* MenuController.swift in Sources */,
+				81252F811EA0CABC00F48FB9 /* notificationViewController.swift in Sources */,
+				81252F941EA1004E00F48FB9 /* changePasswordViewController.swift in Sources */,
+				81252F7F1EA0C6E100F48FB9 /* profileViewController.swift in Sources */,
+				81252F921EA1003100F48FB9 /* changeNameViewController.swift in Sources */,
+				81252FA51EA21E0500F48FB9 /* passwordSentViewController.swift in Sources */,
+				81252FA91EA21E3300F48FB9 /* editNameViewController.swift in Sources */,
+				81252FAB1EA223D000F48FB9 /* labelViewController.swift in Sources */,
+				81252FA31EA21DD400F48FB9 /* forgotPasswordViewController.swift in Sources */,
+				81252F961EA1006300F48FB9 /* helpViewController.swift in Sources */,
+				816880C91E9F6D17002F9217 /* circularProgressBar.swift in Sources */,
+				816880991E9EC28D002F9217 /* signInViewController.swift in Sources */,
+				81252F9D1EA2039700F48FB9 /* repeatViewController.swift in Sources */,
+				81252FA01EA203B400F48FB9 /* repeatCell.swift in Sources */,
+				81252F8B1EA0DB5300F48FB9 /* childViewController.swift in Sources */,
+				81252F871EA0D9FF00F48FB9 /* lightViewController.swift in Sources */,
+				816880C51E9ED3B0002F9217 /* signUpViewController.swift in Sources */,
+				81252F8E1EA0E7D900F48FB9 /* settingCell.swift in Sources */,
+				81252F901EA1001400F48FB9 /* changePhotoViewController.swift in Sources */,
+				816880971E9EC28D002F9217 /* AppDelegate.swift in Sources */,
+				81252F831EA0D91D00F48FB9 /* scheduleViewController.swift in Sources */,
+				81252F7C1EA0BB5800F48FB9 /* menuCell.swift in Sources */,
+				816880C71E9EF611002F9217 /* homeViewController.swift in Sources */,
+				81252F891EA0DAB300F48FB9 /* settingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880A31E9EC28D002F9217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816880AC1E9EC28D002F9217 /* Cuddle_CubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816880AE1E9EC28D002F9217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816880B71E9EC28D002F9217 /* Cuddle_CubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816880A91E9EC28D002F9217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816880921E9EC28D002F9217 /* Cuddle Cub */;
+			targetProxy = 816880A81E9EC28D002F9217 /* PBXContainerItemProxy */;
+		};
+		816880B41E9EC28D002F9217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816880921E9EC28D002F9217 /* Cuddle Cub */;
+			targetProxy = 816880B31E9EC28D002F9217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8168809A1E9EC28D002F9217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8168809B1E9EC28D002F9217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8168809F1E9EC28D002F9217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816880A01E9EC28D002F9217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816880B91E9EC28D002F9217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816880BA1E9EC28D002F9217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816880BC1E9EC28D002F9217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D0D7B8A129390961D5EBB1 /* Pods-Cuddle Cub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle Cub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-Cub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		816880BD1E9EC28D002F9217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAB113BB6156110390955BF /* Pods-Cuddle Cub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle Cub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-Cub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		816880BF1E9EC28D002F9217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC81D32966B9D5685A9DB16 /* Pods-Cuddle CubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle CubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-CubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuddle Cub.app/Cuddle Cub";
+			};
+			name = Debug;
+		};
+		816880C01E9EC28D002F9217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9063796D8BB10815398F4043 /* Pods-Cuddle CubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle CubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-CubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuddle Cub.app/Cuddle Cub";
+			};
+			name = Release;
+		};
+		816880C21E9EC28D002F9217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA4C092A325FB7809B4F305 /* Pods-Cuddle CubUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle CubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-CubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cuddle Cub";
+			};
+			name = Debug;
+		};
+		816880C31E9EC28D002F9217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADD936D7F88881EC53E3565 /* Pods-Cuddle CubUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Cuddle CubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Cuddle-CubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cuddle Cub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8168808E1E9EC28D002F9217 /* Build configuration list for PBXProject "Cuddle Cub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816880B91E9EC28D002F9217 /* Debug */,
+				816880BA1E9EC28D002F9217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816880BB1E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle Cub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816880BC1E9EC28D002F9217 /* Debug */,
+				816880BD1E9EC28D002F9217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816880BE1E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle CubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816880BF1E9EC28D002F9217 /* Debug */,
+				816880C01E9EC28D002F9217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816880C11E9EC28D002F9217 /* Build configuration list for PBXNativeTarget "Cuddle CubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816880C21E9EC28D002F9217 /* Debug */,
+				816880C31E9EC28D002F9217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8168808B1E9EC28D002F9217 /* Project object */;
+}
